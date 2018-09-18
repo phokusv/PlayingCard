@@ -14,6 +14,21 @@
 		3089F694211F219E00E2A476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3089F692211F219E00E2A476 /* LaunchScreen.storyboard */; };
 		3089F69F211F219E00E2A476 /* PlayingCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F69E211F219E00E2A476 /* PlayingCardTests.swift */; };
 		3089F6AA211F219E00E2A476 /* PlayingCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F6A9211F219E00E2A476 /* PlayingCardUITests.swift */; };
+		3089F6B9211F26F300E2A476 /* CarteAJouer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F6B8211F26F300E2A476 /* CarteAJouer.swift */; };
+		3089F6BB211FC8D000E2A476 /* PaquetDeCartes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F6BA211FC8D000E2A476 /* PaquetDeCartes.swift */; };
+		30C5150D212CFABB00E14CFE /* PlayingCardTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C5150B212CFABB00E14CFE /* PlayingCardTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C51510212CFABB00E14CFE /* PlayingCardTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C51509212CFABA00E14CFE /* PlayingCardTarget.framework */; };
+		30C51511212CFABB00E14CFE /* PlayingCardTarget.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30C51509212CFABA00E14CFE /* PlayingCardTarget.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30C51517212CFD3E00E14CFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F68B211F219900E2A476 /* ViewController.swift */; };
+		30C51518212CFD4600E14CFE /* Comments keeping code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D97ADE2128F2DE00AD44CB /* Comments keeping code.swift */; };
+		30C51519212CFD4B00E14CFE /* CarteAJouer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F6B8211F26F300E2A476 /* CarteAJouer.swift */; };
+		30C5151A212CFD4E00E14CFE /* PaquetDeCartes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F6BA211FC8D000E2A476 /* PaquetDeCartes.swift */; };
+		30C5151B212CFD5100E14CFE /* ViewCartes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D97ADC2128E9F000AD44CB /* ViewCartes.swift */; };
+		30C5151C212CFD5500E14CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3089F68D211F219900E2A476 /* Main.storyboard */; };
+		30C5151D212CFD5900E14CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3089F690211F219E00E2A476 /* Assets.xcassets */; };
+		30C5151E212CFD5C00E14CFE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3089F695211F219E00E2A476 /* Info.plist */; };
+		30D97ADD2128E9F000AD44CB /* ViewCartes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D97ADC2128E9F000AD44CB /* ViewCartes.swift */; };
+		30D97ADF2128F2DE00AD44CB /* Comments keeping code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D97ADE2128F2DE00AD44CB /* Comments keeping code.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +46,28 @@
 			remoteGlobalIDString = 3089F685211F219900E2A476;
 			remoteInfo = PlayingCard;
 		};
+		30C5150E212CFABB00E14CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3089F67E211F219900E2A476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C51508212CFABA00E14CFE;
+			remoteInfo = PlayingCardTarget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30C51515212CFABB00E14CFE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				30C51511212CFABB00E14CFE /* PlayingCardTarget.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3089F686211F219900E2A476 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +83,14 @@
 		3089F6A5211F219E00E2A476 /* PlayingCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3089F6A9211F219E00E2A476 /* PlayingCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardUITests.swift; sourceTree = "<group>"; };
 		3089F6AB211F219E00E2A476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3089F6B8211F26F300E2A476 /* CarteAJouer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteAJouer.swift; sourceTree = "<group>"; };
+		3089F6BA211FC8D000E2A476 /* PaquetDeCartes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaquetDeCartes.swift; sourceTree = "<group>"; };
+		30C51509212CFABA00E14CFE /* PlayingCardTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlayingCardTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C5150B212CFABB00E14CFE /* PlayingCardTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardTarget.h; sourceTree = "<group>"; };
+		30C5150C212CFABB00E14CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C51516212CFC4500E14CFE /* PlayingCardPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlayingCardPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		30D97ADC2128E9F000AD44CB /* ViewCartes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCartes.swift; sourceTree = "<group>"; };
+		30D97ADE2128F2DE00AD44CB /* Comments keeping code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comments keeping code.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C51510212CFABB00E14CFE /* PlayingCardTarget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +116,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30C51505212CFABA00E14CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +132,7 @@
 				3089F688211F219900E2A476 /* PlayingCard */,
 				3089F69D211F219E00E2A476 /* PlayingCardTests */,
 				3089F6A8211F219E00E2A476 /* PlayingCardUITests */,
+				30C5150A212CFABA00E14CFE /* PlayingCardTarget */,
 				3089F687211F219900E2A476 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +143,7 @@
 				3089F686211F219900E2A476 /* PlayingCard.app */,
 				3089F69A211F219E00E2A476 /* PlayingCardTests.xctest */,
 				3089F6A5211F219E00E2A476 /* PlayingCardUITests.xctest */,
+				30C51509212CFABA00E14CFE /* PlayingCardTarget.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,11 +151,15 @@
 		3089F688211F219900E2A476 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				3089F689211F219900E2A476 /* AppDelegate.swift */,
+				30C51516212CFC4500E14CFE /* PlayingCardPlayground.playground */,
+				3089F6B7211F26CD00E2A476 /* Supporting files */,
 				3089F68B211F219900E2A476 /* ViewController.swift */,
+				30D97ADE2128F2DE00AD44CB /* Comments keeping code.swift */,
+				3089F6B8211F26F300E2A476 /* CarteAJouer.swift */,
+				3089F6BA211FC8D000E2A476 /* PaquetDeCartes.swift */,
+				30D97ADC2128E9F000AD44CB /* ViewCartes.swift */,
 				3089F68D211F219900E2A476 /* Main.storyboard */,
 				3089F690211F219E00E2A476 /* Assets.xcassets */,
-				3089F692211F219E00E2A476 /* LaunchScreen.storyboard */,
 				3089F695211F219E00E2A476 /* Info.plist */,
 			);
 			path = PlayingCard;
@@ -125,7 +183,36 @@
 			path = PlayingCardUITests;
 			sourceTree = "<group>";
 		};
+		3089F6B7211F26CD00E2A476 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3089F689211F219900E2A476 /* AppDelegate.swift */,
+				3089F692211F219E00E2A476 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		30C5150A212CFABA00E14CFE /* PlayingCardTarget */ = {
+			isa = PBXGroup;
+			children = (
+				30C5150B212CFABB00E14CFE /* PlayingCardTarget.h */,
+				30C5150C212CFABB00E14CFE /* Info.plist */,
+			);
+			path = PlayingCardTarget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30C51506212CFABA00E14CFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C5150D212CFABB00E14CFE /* PlayingCardTarget.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3089F685211F219900E2A476 /* PlayingCard */ = {
@@ -135,10 +222,12 @@
 				3089F682211F219900E2A476 /* Sources */,
 				3089F683211F219900E2A476 /* Frameworks */,
 				3089F684211F219900E2A476 /* Resources */,
+				30C51515212CFABB00E14CFE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				30C5150F212CFABB00E14CFE /* PBXTargetDependency */,
 			);
 			name = PlayingCard;
 			productName = PlayingCard;
@@ -181,6 +270,24 @@
 			productReference = 3089F6A5211F219E00E2A476 /* PlayingCardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		30C51508212CFABA00E14CFE /* PlayingCardTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C51514212CFABB00E14CFE /* Build configuration list for PBXNativeTarget "PlayingCardTarget" */;
+			buildPhases = (
+				30C51504212CFABA00E14CFE /* Sources */,
+				30C51505212CFABA00E14CFE /* Frameworks */,
+				30C51506212CFABA00E14CFE /* Headers */,
+				30C51507212CFABA00E14CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayingCardTarget;
+			productName = PlayingCardTarget;
+			productReference = 30C51509212CFABA00E14CFE /* PlayingCardTarget.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +309,9 @@
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = 3089F685211F219900E2A476;
 					};
+					30C51508212CFABA00E14CFE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 				};
 			};
 			buildConfigurationList = 3089F681211F219900E2A476 /* Build configuration list for PBXProject "PlayingCard" */;
@@ -220,6 +330,7 @@
 				3089F685211F219900E2A476 /* PlayingCard */,
 				3089F699211F219E00E2A476 /* PlayingCardTests */,
 				3089F6A4211F219E00E2A476 /* PlayingCardUITests */,
+				30C51508212CFABA00E14CFE /* PlayingCardTarget */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +360,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30C51507212CFABA00E14CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C5151D212CFD5900E14CFE /* Assets.xcassets in Resources */,
+				30C5151C212CFD5500E14CFE /* Main.storyboard in Resources */,
+				30C5151E212CFD5C00E14CFE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -256,8 +377,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3089F6B9211F26F300E2A476 /* CarteAJouer.swift in Sources */,
+				30D97ADF2128F2DE00AD44CB /* Comments keeping code.swift in Sources */,
 				3089F68C211F219900E2A476 /* ViewController.swift in Sources */,
+				3089F6BB211FC8D000E2A476 /* PaquetDeCartes.swift in Sources */,
 				3089F68A211F219900E2A476 /* AppDelegate.swift in Sources */,
+				30D97ADD2128E9F000AD44CB /* ViewCartes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +402,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30C51504212CFABA00E14CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C51519212CFD4B00E14CFE /* CarteAJouer.swift in Sources */,
+				30C51518212CFD4600E14CFE /* Comments keeping code.swift in Sources */,
+				30C5151A212CFD4E00E14CFE /* PaquetDeCartes.swift in Sources */,
+				30C51517212CFD3E00E14CFE /* ViewController.swift in Sources */,
+				30C5151B212CFD5100E14CFE /* ViewCartes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +426,11 @@
 			isa = PBXTargetDependency;
 			target = 3089F685211F219900E2A476 /* PlayingCard */;
 			targetProxy = 3089F6A6211F219E00E2A476 /* PBXContainerItemProxy */;
+		};
+		30C5150F212CFABB00E14CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C51508212CFABA00E14CFE /* PlayingCardTarget */;
+			targetProxy = 30C5150E212CFABB00E14CFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -429,6 +571,7 @@
 		3089F6AF211F219E00E2A476 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LRSA4UC9N3;
@@ -447,6 +590,7 @@
 		3089F6B0211F219E00E2A476 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LRSA4UC9N3;
@@ -544,6 +688,62 @@
 			};
 			name = Release;
 		};
+		30C51512212CFABB00E14CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LRSA4UC9N3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PlayingCardTarget/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Berbi.PlayingCardTarget;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30C51513212CFABB00E14CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LRSA4UC9N3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PlayingCardTarget/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Berbi.PlayingCardTarget;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,6 +779,15 @@
 			buildConfigurations = (
 				3089F6B5211F219E00E2A476 /* Debug */,
 				3089F6B6211F219E00E2A476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C51514212CFABB00E14CFE /* Build configuration list for PBXNativeTarget "PlayingCardTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C51512212CFABB00E14CFE /* Debug */,
+				30C51513212CFABB00E14CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
